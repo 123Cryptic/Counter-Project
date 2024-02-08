@@ -11,9 +11,9 @@ function incrementCounter() {
     const li=document.createElement('li');
     li.setAttribute('data-counter',counter);
 	if(counter % 2 ===0){
-		li.style.background='red';
+		li.style.background='none';
 	}else{
-		li.style.background='yellow';
+		li.style.background='none';
 	}
 	
     li.innerHTML='<b>Sentence </b>'+counter;
@@ -36,4 +36,3 @@ function decrementCounter() {
 incrementBtn.addEventListener('click',incrementCounter )
 decrementBtn.addEventListener('click',decrementCounter)
 
-//5:16:52
